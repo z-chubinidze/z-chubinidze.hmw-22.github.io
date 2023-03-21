@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family:'PP Pangram Sans';
+}
+@font-face{
+    font-family:'PP Pangram Sans';
+    src:url(./fonts/PP\ Pangram\ Sans\ Compact\ Regular\ 400.otf)
+}
+@media only screen and  (max-width: 1024px){
+    h1{
+        font-size: 36px !important;
+        line-height: 31px !important;
+    }
+    .print{
+        font-size: 10px !important;
+    }
+    .Reviews{
+        font-size: 12px !important;
+    }
+    h3{
+        font-size: 16px !important;
+        line-height: 12px !important;
+    }
+  
+}
+@media only screen and  (max-width: 768px){
+    h1{
+        font-size: 28px !important;
+        line-height: 31px !important;
+    }
+    h3{
+        font-size: 12px !important;
+        line-height: 12px !important;
+    }
+    .carousel-control-prev{
+        height: 40px !important;
+        width: 40px !important;
+        left:60% !important;
+       
+    }
+    .carousel-control-next{
+        height: 40px !important;
+        width: 40px !important;
+        left:80% !important;
+       
+    }
+   
+}
+@media only screen and  (max-width: 425px){
+   .row{
+    display: block !important;
+   }
+   h3{
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+   }
+   h1{
+    font-size: 22px !important;
+   
+}
+   .print{
+    margin-top: 16px !important;
+    margin-bottom: 10px !important;
+    font-size: 10px !important;
+   }
+   .stars{
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+   }
+   .add-card{
+    margin-bottom: 14px !important;
+   }
+   .right-cont{
+    margin-top: 14px !important;
+   }
+   .car-image{
+    height: 40vh !important;
+   
+    }
+    .carusel-cont{
+    height: 40vh !important;
+    }
+    .right-cont{
+        height: 50vh !important;
+    }
+    .slaider-cont{
+        height: 40vh !important;
+    }
+
+}
+.container-fluid{
+    height: 100vh !important;
+}
+.nav-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.slaider-cont{
+    height: 80vh ;
+}
+.car-image{
+    height: 80vh ;
+    border-radius: 8px !important;
+}
+.carusel-cont{
+    height: 80vh ;
+}
+.carousel-control-prev{
+    height: 56px ;
+    width: 56px ;
+    border-radius: 100%;
+    background-color:#FFFFFF !important;
+    left:70%;
+    top: 80%;
+}
+.carousel-control-next{
+    height: 56px ;
+    width: 56px ;
+    border-radius: 100%;
+    background-color: #FFFFFF !important;
+    left:86%;
+    top: 80%;
+}
+.right-cont{
+    height: 80vh ;
+}
+.Reviews{
+   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #E1E1E1;
+}
+h3{
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 51px;
+    color: #FFFFFF;
+    margin-bottom: 0 !important;
+}
+.print{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #E1E1E1;
+}
+.Wishlist{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #E1E1E1;
+}
+.dolar{
+filter: invert(96%) sepia(50%) saturate(7433%) hue-rotate(288deg) brightness(80%) contrast(114%);
+}
+.add-card{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    background-color: #CACACA;
+}
+.add-card:hover{
+    background-color: #0031DD !important;
+    color: #FFFFFF !important;
+    
+}
+.add-card:hover img{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(73deg) brightness(100%) contrast(103%) !important;
+}
+.add-card:hover .dolar{
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(73deg) brightness(100%) contrast(103%) !important;
+}
